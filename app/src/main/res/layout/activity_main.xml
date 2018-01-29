@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tomaszjez.fortepianinko.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="8">
+
+    <Button
+        android:id="@+id/do_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="do"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/re_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="re"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/mi_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="Mi"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/fa_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="Fa"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/sol_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="sol"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/la_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="la"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/si_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="Si"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/do2_but"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="click"
+        android:text="do"
+        android:textSize="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:onClick="startRecord"
+            android:layout_weight="1"
+            android:text="Record"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:onClick="playRecorded"
+            android:text="Playback"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
